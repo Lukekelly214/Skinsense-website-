@@ -1,0 +1,108 @@
+.products-gallery {
+    /* background-color: aqua; */
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+
+.left-side {
+    /* background-color: red; */
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right-side {
+    /* background-color: purple; */
+    width: 75%;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+
+.search-area {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.search-area input {
+    width: 75%;
+    padding: 0.5rem;
+}
+
+.search-area button {
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+}
+
+.left-side-item {
+    /* background-color: teal; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left-side-item ul {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+
+
+.card {
+    flex-basis: 1 1;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+
+.card a {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: .35rem;
+    text-align: center;
+}
+
+.card a:hover {
+    background-color: blacrgb(22, 22, 22);
+    cursor: pointer;
+} 
+
+.card-fav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.card-fav i {
+    font-size: 1.5rem;
+    color: rgb(34, 34, 34);
+}
+
+.card img {
+    /* display: none; */
+    height: 200px;
+    object-fit: cover;
+}
