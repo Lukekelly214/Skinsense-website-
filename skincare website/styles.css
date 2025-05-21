@@ -19,7 +19,7 @@ body{
     align-items: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color: #068cfa;
+    background-color: #f4f4f4;
 }
 
 
@@ -27,6 +27,12 @@ body{
     display: flex;
     gap: 1.5rem;
     list-style: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(39, 39, 39);
 }
 
 
@@ -162,4 +168,14 @@ footer ul {
 
 .footer-site-desc {
     width: 300px;
+}
+
+.footer_contact {
+    display: flex;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.footerlinks li a {
+    text-decoration: none;
 }

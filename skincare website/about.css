@@ -30,7 +30,8 @@
 
 .service {
     width: 300px;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(57, 57, 57);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,10 +104,23 @@
 
 .book_appointment {
     display: flex;
+    height: 50vh;
     background-color: antiquewhite;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
     gap: 1rem;
+}
+
+.book_appointment button {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.book_appointment button:hover {
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
 }
